@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>金百利代理</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    </head>
+    <body>
+        <div>
+            <button onclick='callSwift.postContent111("postContent", 2)'>Call Swift1</button>
+            <button onclick='callSwift.postContentNumber("post number", 2)'>Call Swift2</button>
+            <button onclick='callSwift.postAlertContentMessage("提示", "从js传进来的参数和在js调用native函数")'>Call Swift3</button>
+            <button onclick='test()'>Call Swift4</button>
+            <script>
+                
+                function test(){
+                    callSwift.postByFunction("提示", "通过js函数调用callSwift.postByFunction")
+                }
+                
+                </script>
+            
+        </div>
+    </body>
+</html>

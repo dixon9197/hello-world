@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890E6FEA1D29FFBA004108FA /* cc_webview_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 890E6FE81D29FFBA004108FA /* cc_webview_back.png */; };
+		890E6FEB1D29FFBA004108FA /* cc_webview_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 890E6FE91D29FFBA004108FA /* cc_webview_forward.png */; };
+		89147CD31D26066F0085D37E /* JavaScriptMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89147CD21D26066F0085D37E /* JavaScriptMethod.swift */; };
 		89397E8D1D17A145002C439D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89397E8C1D17A145002C439D /* AppDelegate.swift */; };
 		89397E8F1D17A145002C439D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89397E8E1D17A145002C439D /* ViewController.swift */; };
 		89397E921D17A145002C439D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89397E901D17A145002C439D /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		89397E971D17A145002C439D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89397E951D17A145002C439D /* LaunchScreen.storyboard */; };
 		89397EA21D17A145002C439D /* ShellAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89397EA11D17A145002C439D /* ShellAppTests.swift */; };
 		89397EAD1D17A145002C439D /* ShellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89397EAC1D17A145002C439D /* ShellAppUITests.swift */; };
+		89397EBD1D18D551002C439D /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 89397EBC1D18D551002C439D /* test.html */; };
+		89397EBF1D18D5EB002C439D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89397EBE1D18D5EB002C439D /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		890E6FE81D29FFBA004108FA /* cc_webview_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cc_webview_back.png; path = res/cc_webview_back.png; sourceTree = "<group>"; };
+		890E6FE91D29FFBA004108FA /* cc_webview_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cc_webview_forward.png; path = res/cc_webview_forward.png; sourceTree = "<group>"; };
+		890E6FED1D2A06B7004108FA /* ShellApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShellApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		89147CD21D26066F0085D37E /* JavaScriptMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaScriptMethod.swift; sourceTree = "<group>"; };
 		89397E891D17A145002C439D /* ShellApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShellApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89397E8C1D17A145002C439D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89397E8E1D17A145002C439D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,8 @@
 		89397EA81D17A145002C439D /* ShellAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShellAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89397EAC1D17A145002C439D /* ShellAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellAppUITests.swift; sourceTree = "<group>"; };
 		89397EAE1D17A146002C439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89397EBC1D18D551002C439D /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		89397EBE1D18D5EB002C439D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89397EBF1D18D5EB002C439D /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +86,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DF3C2B7A5AA5993677A1FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		600775A3E603A33093E45D9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		890E6FEC1D29FFBE004108FA /* res */ = {
+			isa = PBXGroup;
+			children = (
+				890E6FE81D29FFBA004108FA /* cc_webview_back.png */,
+				890E6FE91D29FFBA004108FA /* cc_webview_forward.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
 		89397E801D17A145002C439D = {
 			isa = PBXGroup;
 			children = (
+				89397EBE1D18D5EB002C439D /* JavaScriptCore.framework */,
 				89397E8B1D17A145002C439D /* ShellApp */,
 				89397EA01D17A145002C439D /* ShellAppTests */,
 				89397EAB1D17A145002C439D /* ShellAppUITests */,
 				89397E8A1D17A145002C439D /* Products */,
+				600775A3E603A33093E45D9F /* Pods */,
+				3DF3C2B7A5AA5993677A1FE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +135,16 @@
 		89397E8B1D17A145002C439D /* ShellApp */ = {
 			isa = PBXGroup;
 			children = (
+				890E6FEC1D29FFBE004108FA /* res */,
+				89397EBC1D18D551002C439D /* test.html */,
 				89397E8C1D17A145002C439D /* AppDelegate.swift */,
 				89397E8E1D17A145002C439D /* ViewController.swift */,
+				89147CD21D26066F0085D37E /* JavaScriptMethod.swift */,
 				89397E901D17A145002C439D /* Main.storyboard */,
 				89397E931D17A145002C439D /* Assets.xcassets */,
 				89397E951D17A145002C439D /* LaunchScreen.storyboard */,
 				89397E981D17A145002C439D /* Info.plist */,
+				890E6FED1D2A06B7004108FA /* ShellApp-Bridging-Header.h */,
 			);
 			path = ShellApp;
 			sourceTree = "<group>";
@@ -149,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89397EB41D17A146002C439D /* Build configuration list for PBXNativeTarget "ShellAppTests" */;
 			buildPhases = (
+				A53D3DC5E964E85D4C3B722C /* 📦 Check Pods Manifest.lock */,
 				89397E991D17A145002C439D /* Sources */,
 				89397E9A1D17A145002C439D /* Frameworks */,
 				89397E9B1D17A145002C439D /* Resources */,
+				1A27E0C21B2C20A674A2AB1E /* 📦 Embed Pods Frameworks */,
+				BFD0CD601BE33BCBEFD196B6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89397EB71D17A146002C439D /* Build configuration list for PBXNativeTarget "ShellAppUITests" */;
 			buildPhases = (
+				B3C8DC87866A5AD90F5C8914 /* 📦 Check Pods Manifest.lock */,
 				89397EA41D17A145002C439D /* Sources */,
 				89397EA51D17A145002C439D /* Frameworks */,
 				89397EA61D17A145002C439D /* Resources */,
+				CDBC3C9DE30A19F6C9B4AD5F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +278,9 @@
 			files = (
 				89397E971D17A145002C439D /* LaunchScreen.storyboard in Resources */,
 				89397E941D17A145002C439D /* Assets.xcassets in Resources */,
+				89397EBD1D18D551002C439D /* test.html in Resources */,
+				890E6FEB1D29FFBA004108FA /* cc_webview_forward.png in Resources */,
+				890E6FEA1D29FFBA004108FA /* cc_webview_back.png in Resources */,
 				89397E921D17A145002C439D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,11 +301,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A27E0C21B2C20A674A2AB1E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShellAppTests/Pods-ShellAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53D3DC5E964E85D4C3B722C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C8DC87866A5AD90F5C8914 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD0CD601BE33BCBEFD196B6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShellAppTests/Pods-ShellAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDBC3C9DE30A19F6C9B4AD5F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShellAppUITests/Pods-ShellAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89397E851D17A145002C439D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89147CD31D26066F0085D37E /* JavaScriptMethod.swift in Sources */,
 				89397E8F1D17A145002C439D /* ViewController.swift in Sources */,
 				89397E8D1D17A145002C439D /* AppDelegate.swift in Sources */,
 			);
@@ -401,10 +530,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShellApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mocano1.ShellApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShellApp/ShellApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +544,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ShellApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mocano1.ShellApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShellApp/ShellApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +618,7 @@
 				89397EB31D17A146002C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89397EB41D17A146002C439D /* Build configuration list for PBXNativeTarget "ShellAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +627,7 @@
 				89397EB61D17A146002C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89397EB71D17A146002C439D /* Build configuration list for PBXNativeTarget "ShellAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +636,7 @@
 				89397EB91D17A146002C439D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
