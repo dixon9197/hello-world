@@ -33,7 +33,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VSG-v9-aHy" secondAttribute="bottom" id="rM7-ie-6gy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="uP0-as-JWu"/>
+                    <navigationItem key="navigationItem" id="uP0-as-JWu">
+                        <barButtonItem key="rightBarButtonItem" title="GO WKWEB" id="V1R-aY-xK9">
+                            <connections>
+                                <segue destination="HWE-s0-x11" kind="show" id="wl3-iD-OTD"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="wv" destination="VSG-v9-aHy" id="yP0-D6-Rft"/>
                     </connections>
@@ -41,6 +47,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1117" y="440"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="IfA-yy-LBl">
+            <objects>
+                <viewController id="HWE-s0-x11" customClass="WKWebViewController" customModule="ShellApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6HH-Hp-ZO1"/>
+                        <viewControllerLayoutGuide type="bottom" id="BqY-1f-7DB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KtM-tR-NKh">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlo-DI-6cT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="1147"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cqB-Xi-FBB">

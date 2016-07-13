@@ -19,6 +19,8 @@
 		89397EAD1D17A145002C439D /* ShellAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89397EAC1D17A145002C439D /* ShellAppUITests.swift */; };
 		89397EBD1D18D551002C439D /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 89397EBC1D18D551002C439D /* test.html */; };
 		89397EBF1D18D5EB002C439D /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89397EBE1D18D5EB002C439D /* JavaScriptCore.framework */; };
+		89F8AF6C1D338E0000FFCFF8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F8AF6B1D338E0000FFCFF8 /* WebKit.framework */; };
+		89F8AF6E1D347C9100FFCFF8 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F8AF6D1D347C9100FFCFF8 /* WKWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		89397EAE1D17A146002C439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89397EBC1D18D551002C439D /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
 		89397EBE1D18D5EB002C439D /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		89F8AF6B1D338E0000FFCFF8 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		89F8AF6D1D347C9100FFCFF8 /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F8AF6C1D338E0000FFCFF8 /* WebKit.framework in Frameworks */,
 				89397EBF1D18D5EB002C439D /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -89,6 +94,7 @@
 		3DF3C2B7A5AA5993677A1FE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89F8AF6B1D338E0000FFCFF8 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +145,7 @@
 				89397EBC1D18D551002C439D /* test.html */,
 				89397E8C1D17A145002C439D /* AppDelegate.swift */,
 				89397E8E1D17A145002C439D /* ViewController.swift */,
+				89F8AF6D1D347C9100FFCFF8 /* WKWebViewController.swift */,
 				89147CD21D26066F0085D37E /* JavaScriptMethod.swift */,
 				89397E901D17A145002C439D /* Main.storyboard */,
 				89397E931D17A145002C439D /* Assets.xcassets */,
@@ -387,6 +394,7 @@
 				89147CD31D26066F0085D37E /* JavaScriptMethod.swift in Sources */,
 				89397E8F1D17A145002C439D /* ViewController.swift in Sources */,
 				89397E8D1D17A145002C439D /* AppDelegate.swift in Sources */,
+				89F8AF6E1D347C9100FFCFF8 /* WKWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
